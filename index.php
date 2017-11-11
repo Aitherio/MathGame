@@ -49,8 +49,8 @@ if (!isset($_SESSION["questionCount"]) || !isset($_SESSION["correctCount"])) {
                     $_SESSION["secondNum"] = rand(0,50);
                     $_SESSION["operator"] = ((rand(0,1) == 0) ? "+" : "-");
                 } else {
-                    echo "<span class='wrong'>Incorrect." . " " . $_SESSION["firstNum"] . " </span>" .
-                    $_SESSION["operator"] . " " . $_SESSION["secondNum"] . " is $previousSolution";
+                    echo "<span class='wrong'>Incorrect." . " " . $_SESSION["firstNum"] . " " .
+                    $_SESSION["operator"] . " " . $_SESSION["secondNum"] . " is $previousSolution</span>";
                     $_SESSION["questionCount"]++;
                     $_SESSION["firstNum"] = rand(0,50);
                     $_SESSION["secondNum"] = rand(0,50);
