@@ -18,7 +18,7 @@ if (!empty($_GET['message'])){
         <h2>Login to enjoy our math game</h2>
     </div>
     <div class="container-fluid col-sm-6">
-        <form class="form-horizontal" role="form" action="validate.php" method="post">
+        <form class="form-horizontal" action="validate.php" method="post">
             <div class="form-group">
                 <?php
                     echo "<p style='color: red;'>" . $error . "</p>";

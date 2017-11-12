@@ -34,7 +34,7 @@ if (!isset($_SESSION["questionCount"]) || !isset($_SESSION["correctCount"])) {
     </div>
 
     <div class="container-fluid col-sm-6">
-        <form class="form-horizontal" role="form" action="index.php" method="post">
+        <form class="form-horizontal" action="index.php" method="post">
             <div class="form-group">
                 <?php
                 if (!isset($response) || empty($response)) {
