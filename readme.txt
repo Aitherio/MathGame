@@ -1,6 +1,8 @@
 Math Game originally started out as a simple Web Development class assignment. The lesson focus was to practice using PHP and state management.
 
-What did you use
+Created using:
 PHP, HTML, CSS, Bootstrap
 
-What did you learn
+Plan to implement: Javascript, JQuery
+
+Plan to further implement: Database
