@@ -3,6 +3,10 @@ I've since continued to work on it to add more functionalities and visual stylin
 
 Bug: when 0 is inputted as a numeric response, no response is recorded and the prompt asks you to input a response.
 
+Login:
+Email: a@a.a
+Password: aaa
+
 Created using:
 PHP, HTML, CSS, Bootstrap
 
